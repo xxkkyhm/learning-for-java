@@ -19,12 +19,13 @@ public class RandomD {
             int data2 = r.nextInt(10) + 1;
             System.out.println(data2);
 
+        }
             System.out.println("=======================");
 
-            for (int o = 1; i <= 20;i++) {
+
+            for (int o = 1; o <= 20;o++) {
                 int data3 = r.nextInt(15) + 3;
                 System.out.println(data3);
-            }
         }
     }
 }
