@@ -9,7 +9,18 @@ public class MethodTest4 {
 
         int rs2 = add(5);
         System.out.println("一到一百的和" + rs2);
+
+        judge(10);
     }
+    public static void judge(int num){
+        if (num % 2 == 0){
+            System.out.println(num + "是偶数");
+        }else {
+            System.out.println(num + "是奇数");
+        }
+    }
+
+
     public static int add(int n){
         int sum = 0;
         for (int i = 1; i <= n ; i++) {
