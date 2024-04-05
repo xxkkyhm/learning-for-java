@@ -7,7 +7,7 @@ public class MethodTest4 {
         System.out.println("一到五的和" + rs);
 
 
-        int rs2 = add(5);
+        int rs2 = add(100);
         System.out.println("一到一百的和" + rs2);
 
         judge(10);
